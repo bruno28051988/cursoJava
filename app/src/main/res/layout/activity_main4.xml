@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity4">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Informe um número: "/>
+
+        <Button
+            android:id="@+id/btnMenos"
+            android:layout_width="40dp"
+            android:layout_marginLeft="6dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="-" />
+
+        <EditText
+            android:id="@+id/editNumero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:background="@drawable/box"
+            android:hint="Numero"
+            android:inputType="numberDecimal"/>
+
+        <Button
+            android:id="@+id/btnMais"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="+" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCancular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="Calcular"/>
+
+
+    <LinearLayout
+        android:id="@+id/restoMain4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_restoMain4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resto da divisão por 2 "/>
+
+        <TextView
+            android:id="@+id/edit_restoMain4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_200"
+            android:textSize="18sp"
+            android:text="0"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cuboMain4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_cuboMain4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Elevado ao Cubo "/>
+
+        <TextView
+            android:id="@+id/edit_cuboMain4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_200"
+            android:textSize="18sp"
+            android:text="0"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/raizQuadradaMain4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_raizMain4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Raiz Quadrada"/>
+
+        <TextView
+            android:id="@+id/edit_raizMain4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_200"
+            android:textSize="18sp"
+            android:text="0"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/raizCubicaMain4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_raizCubicaMain4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Raiz Cúbica "/>
+
+        <TextView
+            android:id="@+id/edit_raizCubicaMain4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_200"
+            android:textSize="18sp"
+            android:text="0"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/absolutoMain4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_absolutoMain4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valor Absoluto "/>
+
+        <TextView
+            android:id="@+id/edit_absolutoMain4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_200"
+            android:textSize="18sp"
+            android:text="0"/>
+    </LinearLayout>
+
+</LinearLayout>
